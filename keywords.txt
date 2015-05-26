@@ -6,13 +6,14 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-LcdBarGraph	KEYWORD1
+LcdBarGraphX	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
 drawValue	KEYWORD2
+begin	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

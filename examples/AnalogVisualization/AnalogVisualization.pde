@@ -1,11 +1,11 @@
 #include <LiquidCrystal.h>
-#include <LcdBarGraph.h>
+#include <LcdBarGraphX.h>
 
 byte lcdNumCols = 16; // -- number of columns in the LCD
 byte sensorPin = 0; // -- value for this example
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // -- creating LCD instance
-LcdBarGraph lbg(&lcd, lcdNumCols);  // -- creating
+LcdBarGraphX lbg(&lcd, lcdNumCols);  // -- creating
 
 void setup(){
   // -- initializing the LCD
